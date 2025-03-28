@@ -1,0 +1,125 @@
+{
+  "common": {
+    "submit": "ඉදිරිපත් කරන්න",
+    "cancel": "අවලංගු කරන්න",
+    "next": "ඊළඟ",
+    "previous": "පෙර",
+    "loading": "පූරණය වෙමින්...",
+    "success": "සාර්ථකයි!",
+    "error": "දෝෂයක්!",
+    "required": "අවශ්‍යයි",
+    "optional": "විකල්ප"
+  },
+  "header": {
+    "title": "වැසිකිළි පිරිසිදුකම ප්‍රතිපෝෂණ පද්ධතිය",
+    "darkMode": "අඳුරු මාදිලිය",
+    "lightMode": "ආලෝක මාදිලිය",
+    "admin": "පරිපාලක පැනලය",
+    "home": "මුල් පිටුව"
+  },
+  "feedback": {
+    "title": "වැසිකිළි පිරිසිදුකම ප්‍රතිපෝෂණය",
+    "description": "කරුණාකර වැසිකිළියේ පිරිසිදුකම පිළිබඳ ඔබේ ප්‍රතිපෝෂණය ලබා දෙන්න.",
+    "thankYou": "ඔබේ ප්‍රතිපෝෂණයට ස්තූතියි!",
+    "steps": {
+      "basicInfo": "මූලික තොරතුරු",
+      "cleanliness": "පිරිසිදුකම ශ්‍රේණිගත කිරීම්",
+      "additional": "අතිරේක තොරතුරු",
+      "review": "සමාලෝචනය සහ ඉදිරිපත් කිරීම"
+    },
+    "fields": {
+      "dateTime": "දිනය සහ වේලාව",
+      "shift": "වාරය",
+      "shifts": {
+        "morning": "උදෑසන",
+        "afternoon": "දහවල",
+        "night": "රාත්‍රී"
+      },
+      "location": "වැසිකිළි ස්ථානය",
+      "floorCondition": "බිම් තත්ත්වය",
+      "overallCleanliness": "සමස්ත පිරිසිදුකම",
+      "bowlCleanliness": "වැසිකිළි/බෝල පිරිසිදුකම",
+      "trashBinCondition": "කුණු බඳුන් තත්ත්වය",
+      "waterSupply": "ජල සැපයුම",
+      "lighting": "ආලෝකකරණය",
+      "comments": "අතිරේක අදහස්",
+      "images": "රූප උඩුගත කරන්න (උපරිම 5)"
+    },
+    "ratings": {
+      "veryClean": "ඉතා පිරිසිදුයි",
+      "clean": "පිරිසිදුයි",
+      "moderatelyClean": "මධ්‍යස්ථව පිරිසිදුයි",
+      "dirty": "අපිරිසිදුයි"
+    },
+    "trashConditions": {
+      "empty": "හිස්",
+      "halfFull": "අඩක් පිරී ඇත",
+      "full": "පිරී ඇත",
+      "noTrashBin": "කුණු බඳුනක් නැත"
+    },
+    "waterSupply": {
+      "sufficient": "ප්‍රමාණවත්",
+      "insufficient": "ප්‍රමාණවත් නොවේ",
+      "noWater": "ජලය නැත"
+    },
+    "lighting": {
+      "wellLit": "හොඳින් ආලෝකමත්",
+      "sufficient": "ප්‍රමාණවත්",
+      "dimLight": "අඩු ආලෝකය"
+    },
+    "dropzone": {
+      "title": "රූප මෙතැන ඇද දමන්න, හෝ ගොනු තේරීමට ක්ලික් කරන්න",
+      "maxFiles": "උපරිම ගොනු 5ක් අවසර ඇත",
+      "fileType": "රූප ගොනු පමණක් පිළිගැනේ"
+    },
+    "validation": {
+      "required": "මෙම ක්ෂේත්‍රය අවශ්‍යයි",
+      "maxImages": "උපරිම රූප 5ක් අවසර ඇත",
+      "imageType": "රූප ගොනු පමණක් පිළිගැනේ",
+      "imageSize": "රූප ප්‍රමාණය 5MB ට අඩු විය යුතුය"
+    }
+  },
+  "admin": {
+    "title": "පරිපාලක පැනලය",
+    "description": "සියලුම ප්‍රතිපෝෂණ ඉදිරිපත් කිරීම් කළමනාකරණය කර බලන්න.",
+    "noData": "දත්ත නොමැත",
+    "filters": {
+      "title": "පෙරහන්",
+      "dateRange": "දින පරාසය",
+      "location": "ස්ථානය",
+      "apply": "පෙරහන් යොදන්න",
+      "reset": "පෙරහන් යළි පිහිටුවන්න",
+      "from": "සිට",
+      "to": "දක්වා"
+    },
+    "table": {
+      "date": "දිනය සහ වේලාව",
+      "shift": "වාරය",
+      "location": "ස්ථානය",
+      "floorCondition": "බිම",
+      "overallCleanliness": "සමස්ත",
+      "bowlCleanliness": "බෝල",
+      "trashBinCondition": "කුණු",
+      "waterSupply": "ජලය",
+      "lighting": "ආලෝකය",
+      "comments": "අදහස්",
+      "images": "රූප",
+      "actions": "ක්‍රියා"
+    },
+    "actions": {
+      "view": "බලන්න",
+      "edit": "සංස්කරණය",
+      "delete": "මකන්න",
+      "download": "වාර්තාව බාගන්න",
+      "confirm": "ඔබට විශ්වාසද?",
+      "yes": "ඔව්",
+      "no": "නැත"
+    },
+    "modal": {
+      "viewTitle": "ප්‍රතිපෝෂණය බලන්න",
+      "editTitle": "ප්‍රතිපෝෂණය සංස්කරණය",
+      "close": "වසන්න",
+      "save": "වෙනස්කම් සුරකින්න"
+    }
+  }
+}

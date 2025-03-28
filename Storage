@@ -1,0 +1,11 @@
+rules_version = '2';
+
+// Allow read for all users and write for localhost during development
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read;
+      allow write: if request.auth != null || request.origin.matches('http://localhost:3000');
+    }
+  }
+}

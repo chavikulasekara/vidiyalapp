@@ -1,0 +1,134 @@
+{
+  "common": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "success": "Success!",
+    "error": "Error!",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "header": {
+    "title": "Restroom Cleanliness Feedback System",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "admin": "Admin Panel",
+    "home": "Home"
+  },
+  "feedback": {
+    "title": "Restroom Cleanliness Feedback",
+    "description": "Please provide your feedback on the cleanliness of the restroom.",
+    "thankYou": "Thank you for your feedback!",
+    "steps": {
+      "basicInfo": "Basic Information",
+      "cleanliness": "Cleanliness Ratings",
+      "additional": "Additional Information",
+      "review": "Review & Submit"
+    },
+    "fields": {
+      "dateTime": "Date & Time",
+      "shift": "Shift",
+      "shifts": {
+        "morning": "Morning",
+        "afternoon": "Afternoon",
+        "night": "Night"
+      },
+      "location": "Restroom Location",
+      "floorCondition": "Floor Condition",
+      "overallCleanliness": "Overall Cleanliness",
+      "bowlCleanliness": "Restroom/Bowl Cleanliness",
+      "trashBinCondition": "Trash Bin Condition",
+      "waterSupply": "Water Supply",
+      "lighting": "Lighting",
+      "comments": "Additional Comments",
+      "images": "Upload Images (Up to 5)"
+    },
+    "ratings": {
+      "veryClean": "Very Clean",
+      "clean": "Clean",
+      "moderatelyClean": "Moderately Clean",
+      "dirty": "Dirty"
+    },
+    "trashConditions": {
+      "empty": "Empty",
+      "halfFull": "Half Full",
+      "full": "Full",
+      "noTrashBin": "No Trash Bin"
+    },
+    "waterSupply": {
+      "sufficient": "Sufficient",
+      "insufficient": "Insufficient",
+      "noWater": "No Water"
+    },
+    "lighting": {
+      "wellLit": "Well Lit",
+      "sufficient": "Sufficient",
+      "dimLight": "Dim Light"
+    },
+    "dropzone": {
+      "title": "Drag and drop images here, or click to select files",
+      "maxFiles": "Maximum 5 files allowed",
+      "fileType": "Only image files are accepted"
+    },
+    "validation": {
+      "required": "This field is required",
+      "maxImages": "Maximum 5 images allowed",
+      "imageType": "Only image files are accepted",
+      "imageSize": "Image size should be less than 5MB"
+    }
+  },
+  "login": {
+    "title": "Admin Login",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Login",
+    "loggingIn": "Logging in...",
+    "success": "Login successful",
+    "error": "Invalid username or password"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "description": "Manage and view all feedback submissions.",
+    "noData": "No data available",
+    "filters": {
+      "title": "Filters",
+      "dateRange": "Date Range",
+      "location": "Location",
+      "apply": "Apply Filters",
+      "reset": "Reset Filters",
+      "from": "From",
+      "to": "To"
+    },
+    "table": {
+      "date": "Date & Time",
+      "shift": "Shift",
+      "location": "Location",
+      "floorCondition": "Floor",
+      "overallCleanliness": "Overall",
+      "bowlCleanliness": "Bowl",
+      "trashBinCondition": "Trash",
+      "waterSupply": "Water",
+      "lighting": "Lighting",
+      "comments": "Comments",
+      "images": "Images",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "download": "Download Report",
+      "confirm": "Are you sure?",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "modal": {
+      "viewTitle": "View Feedback",
+      "editTitle": "Edit Feedback",
+      "close": "Close",
+      "save": "Save Changes"
+    }
+  }
+}

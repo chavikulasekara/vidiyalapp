@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom styles for the application */
+.step-indicator {
+  @apply flex items-center justify-center w-8 h-8 rounded-full border-2 border-gray-300 bg-white text-gray-500;
+}
+
+.step-indicator.active {
+  @apply border-primary-500 bg-primary-500 text-white;
+}
+
+.step-indicator.completed {
+  @apply border-green-500 bg-green-500 text-white;
+}
+
+.step-line {
+  @apply flex-1 h-1 bg-gray-300;
+}
+
+.step-line.active {
+  @apply bg-primary-500;
+}
+
+.step-line.completed {
+  @apply bg-green-500;
+}
+
+/* Dark mode styles */
+.dark .step-indicator {
+  @apply bg-gray-800 border-gray-600 text-gray-300;
+}
+
+.dark .step-indicator.active {
+  @apply border-primary-500 bg-primary-500 text-white;
+}
+
+.dark .step-indicator.completed {
+  @apply border-green-500 bg-green-500 text-white;
+}
+
+.dark .step-line {
+  @apply bg-gray-600;
+}
+
+.dark .step-line.active {
+  @apply bg-primary-500;
+}
+
+.dark .step-line.completed {
+  @apply bg-green-500;
+}
