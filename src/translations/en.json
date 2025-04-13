@@ -36,6 +36,7 @@
         "night": "Night"
       },
       "location": "Restroom Location",
+      "selectLocation": "Select a location",
       "floorCondition": "Floor Condition",
       "overallCleanliness": "Overall Cleanliness",
       "bowlCleanliness": "Restroom/Bowl Cleanliness",

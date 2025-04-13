@@ -55,7 +55,7 @@ const FeedbackForm = ({ db }) => {
   const [currentStep, setCurrentStep] = useState(0);
   const [formData, setFormData] = useState({
     dateTime: new Date().toISOString().slice(0, 16),
-    shift: 'morning',
+    shift: 'A',
     location: '',
     floorCondition: '',
     overallCleanliness: '',
@@ -258,9 +258,9 @@ const FeedbackForm = ({ db }) => {
                 className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                 required
               >
-                <option value="morning">{t('feedback.fields.shifts.morning')}</option>
-                <option value="afternoon">{t('feedback.fields.shifts.afternoon')}</option>
-                <option value="night">{t('feedback.fields.shifts.night')}</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="General">General</option>
               </select>
             </div>
             
@@ -268,14 +268,22 @@ const FeedbackForm = ({ db }) => {
               <label className="block text-sm font-medium mb-1">
                 {t('feedback.fields.location')} <span className="text-red-500">*</span>
               </label>
-              <input
-                type="text"
+              <select
                 name="location"
                 value={formData.location}
                 onChange={handleChange}
                 className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                 required
-              />
+              >
+                <option value="">{t('feedback.fields.selectLocation')}</option>
+                <option value="team member ladies">Team Member Ladies</option>
+                <option value="team member gents">Team Member Gents</option>
+                <option value="near Medical Centre ladies">Near Medical Centre Ladies</option>
+                <option value="near Medical Centre gents">Near Medical Centre Gents</option>
+                <option value="executive washroom">Executive Washroom</option>
+                <option value="operation area ladies">Operation Area Ladies</option>
+                <option value="operation area gents">Operation Area Gents</option>
+              </select>
             </div>
           </div>
         );
@@ -492,7 +500,7 @@ const FeedbackForm = ({ db }) => {
                 
                 <div>
                   <p className="font-medium">{t('feedback.fields.shift')}:</p>
-                  <p>{t(`feedback.fields.shifts.${formData.shift}`)}</p>
+                  <p>{formData.shift}</p>
                 </div>
                 
                 <div>

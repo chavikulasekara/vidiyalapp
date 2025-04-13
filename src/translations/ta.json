@@ -36,6 +36,7 @@
         "night": "இரவு"
       },
       "location": "கழிவறை இடம்",
+      "selectLocation": "இடத்தைத் தேர்ந்தெடுக்கவும்",
       "floorCondition": "தரை நிலைமை",
       "overallCleanliness": "ஒட்டுமொத்த தூய்மை",
       "bowlCleanliness": "கழிவறை/கிண்ணம் தூய்மை",
