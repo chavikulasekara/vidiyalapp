@@ -265,7 +265,7 @@ const FeedbackDetailModal = ({ feedback, onClose, t }) => {
           </div>
           
           <div>
-            <p className="font-medium">{t('feedback.fields.shift')}:</p>
+            <p className="font-medium"></p>
             <p>{feedback.shift}</p>
           </div>
           
