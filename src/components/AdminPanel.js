@@ -573,7 +573,7 @@ const AdminPanel = ({ db, darkMode }) => {
                       {feedback.createdAt.toLocaleString()}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
-                      {t(`feedback.fields.shifts.${feedback.shift}`)}
+                      {feedback.shift}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       {feedback.location}
