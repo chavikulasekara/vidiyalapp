@@ -95,7 +95,7 @@ const FeedbackForm = ({ db }) => {
       }
       
       // Check file size (5MB limit)
-      if (file.size > 5 * 1024 * 1024) {
+      if (file.size > 10 * 1024 * 1024) {
         errors.push(`${file.name}: ${t('feedback.validation.imageSize')}`);
         return;
       }
