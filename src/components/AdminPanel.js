@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
 const FeedbackReport = ({ data }) => (
   <Document>
     <Page size="A4" style={styles.page}>
-      <Text style={styles.title}>Restroom Cleanliness Feedback Report</Text>
+      <Text style={styles.title}>Restroom Cleanliness Feedback Report...</Text>
       <Text style={styles.header}>Generated on {new Date().toLocaleDateString()}</Text>
       
       <View style={styles.table}>
