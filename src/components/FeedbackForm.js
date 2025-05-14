@@ -214,18 +214,17 @@ const FeedbackForm = ({ db }) => {
       // Reset form
       setSubmitted(true);
       
-      // Redirect to home after 3 seconds
+     // Redirect to home after 3 seconds
       setTimeout(() => {
         navigate('/');
         window.location.reload();
       }, 3000);
     } catch (error) {
-      console.error('Error submitting feedback:', error);
-      toast.error(t('common.error'));
-    } finally {
+      toast.error("Upload an image with a size that is smaller than this.");
       setIsSubmitting(false);
     }
   };
+
 
   // Render form based on current step
   const renderStep = () => {
