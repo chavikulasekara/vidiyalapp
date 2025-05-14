@@ -65,7 +65,7 @@ const Header = ({ darkMode, setDarkMode, hideAdmin = false, panelType = 'user' }
                 onClick={handleLogout}
                 className={`px-3 py-2 rounded-md text-sm font-medium ${darkMode ? 'text-white hover:bg-gray-700' : 'text-gray-700 hover:bg-gray-100'}`}
               >
-                Logout,,
+                Logout
               </button>
             )}
           </nav>
